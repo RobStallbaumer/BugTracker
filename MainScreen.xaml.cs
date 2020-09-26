@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BugTracker
+namespace UserInterface
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class MainScreen : MainScreen
     {
-        public UserControl1()
+        public MainScreen()
         {
             InitializeComponent();
         }

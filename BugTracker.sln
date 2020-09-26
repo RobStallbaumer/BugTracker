@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracker", "BugTracker.csproj", "{52A3206C-8EEB-4361-B0F3-F4CD355B25B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface.csproj", "{52A3206C-8EEB-4361-B0F3-F4CD355B25B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "..\Database\Database.csproj", "{9AA91846-508D-4DCF-9809-D09E720AD7D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAFBCA6F-23C9-4704-99BE-F68DBFD55B3C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{52A3206C-8EEB-4361-B0F3-F4CD355B25B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A3206C-8EEB-4361-B0F3-F4CD355B25B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A3206C-8EEB-4361-B0F3-F4CD355B25B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA91846-508D-4DCF-9809-D09E720AD7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA91846-508D-4DCF-9809-D09E720AD7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA91846-508D-4DCF-9809-D09E720AD7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA91846-508D-4DCF-9809-D09E720AD7D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
